@@ -1,0 +1,15 @@
+2018.8.2
+1. 新增iot_time.h 实现
+           long IOT_time(char *pszPtr);
+	       struct tm *IOT_localtime(const void *timep);
+
+2018.7.25
+1. 解决ws_client x509证书内存泄露的问题
+2. 增加GCC编译工具
+3. 解决update_cmd编译错误
+
+2018.7.18
+SDK 支持GCC
+
+2018.7.17
+SDK 支持2M flash 
